@@ -367,7 +367,7 @@ body{
     overflow-y: scroll;
     margin: 15px;
     width:80%;
-    height: 520px;
+    max-height: 520px;
     display: none;
     position: fixed;
     background-color:rgb(255, 255, 255);
@@ -604,7 +604,7 @@ footer p{
     /*table */
     #tableCarrito{
         width: 98%;
-        height:600px
+    
     }
     #btnClCarrito{
         margin: 5px 0px 5px 93%;
@@ -619,11 +619,11 @@ footer p{
     }
     .loaderFC{
         width:98%;
-        height:600px
+    
     }
     .checkNone{
         width: 98%;
-        height:600px
+        
     }
 
 }

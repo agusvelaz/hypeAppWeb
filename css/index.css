@@ -632,6 +632,9 @@ footer p{
     .tablaCarritoContainer, #tbody {
         grid-template-columns: 8% 48% 22% 22%;
     }
+    #btnClCarrito{
+        margin: 5px 0px 5px 90%;
+    }
     #tfoot {
         grid-template-columns: 50% 39% 8%;
     }

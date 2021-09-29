@@ -44,7 +44,7 @@ var user=""
 
         {id:"3", nombre: "Eric Emanuel EE Basic Short 'ORANGE'", precio:83, categoria:"shorts", img:"img/products/shorts/Eric-Emanuel-EE-Basic-Short-Orange.jpg"},
 
-        {id:"4", nombre: "BAPE Color Camo Champion Full Zip Hoodie Red", precio:450, categoria:"hoodies", img:"../img/products/hoodies/Bape-Color-Camo-Champion-Full-Zip-Hoodie-Red.jpg"},
+        {id:"4", nombre: "BAPE Color Camo Champion Full Zip Hoodie Red", precio:450, categoria:"hoodies", img:"img/products/hoodies/Bape-Color-Camo-Champion-Full-Zip-Hoodie-Red.jpg"},
 
         {id:"5", nombre: "Adidas Yeezy Calabasas Long Sleeves Tee Frozen Yellow", precio:120, categoria:"remeras", img:"img/products/remeras/Adidas-Yeezy-Calabasas-Long-Sleeves-Tee-Frozen-Yellow-1.jpg"},
 

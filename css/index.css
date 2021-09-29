@@ -571,7 +571,7 @@ body{
 }
 .checkNone a{ 
     margin:20px;
-    color: rgb(255, 0, 0);
+    color: #ff0000;
     font-weight: bold;
 }
 

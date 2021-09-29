@@ -603,7 +603,8 @@ footer p{
 
     /*table */
     #tableCarrito{
-        width: 95%;
+        width: 98%;
+        height:450px
     }
     #btnClCarrito{
         margin: 5px 0px 5px 93%;
@@ -617,10 +618,12 @@ footer p{
         grid-template-columns: 60% 22% 20%;
     }
     .loaderFC{
-        width:95%;
+        width:98%;
+        height:450px
     }
     .checkNone{
-        width: 95%;
+        width: 98%;
+        height:450px
     }
 
 }

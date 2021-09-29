@@ -58,7 +58,7 @@ var user=""
 
         {id:"10", nombre: "Bearbrick Jean-Michel Basquiat #7 100% & 400% Set", precio:260, categoria:"accesorios", img:"img/products/accesorios/Bearbrick-Jean-Michel-Basquiat-7-100_-_-400_-Set.jpg"},
 
-        {id:"11", nombre: "Nike SB Dunk Low x TRAVIS SCOTT", precio:1960, categoria:"zapatillas", img:"/img/products/zapatillas/Nike-SB-Dunk-Low-Travis-Scott-Product.jpg"},
+        {id:"11", nombre: "Nike SB Dunk Low x TRAVIS SCOTT", precio:1960, categoria:"zapatillas", img:"img/products/zapatillas/Nike-SB-Dunk-Low-Travis-Scott-Product.jpg"},
 
         {id:"12", nombre: "Travis Scott The Scotts World T-shirt 'Black'", precio:70, categoria:"remeras", img:"img/products/remeras/Travis-Scott-The-Scotts-World-T-Shirt-Black.jpg"}
 

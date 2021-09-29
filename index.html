@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!-- FONT TITLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/80452a17ac.js" crossorigin="anonymous"></script>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <title>HypeApp</title>
+</head>
+<body>
+    <div class="lds-dual-ring loader" id="loader"></div>
+    <div class="layout" id="layout"></div>
+        <div id="loginCard">
+            <div class="clLogin"><button id="btnClCuenta">X</button></div>
+            <h2> ¡Bienvenido! </h2>
+            <p>Ingrese su usuario y contraseña para continuar</p>
+            <form id="form" class="loginForm">
+                <label for="name"></label>
+                <input type="text" id="inputName" name="user" autocomplete="user" placeholder="Ingrese su usuario">
+                <label for="name"></label>
+                
+                <input type="text" id="inputPass" name="password" autocomplete="password" placeholder="Ingrese su contraseña">
+                <button type="submit" id="btnLogin">Continuar</button>
+            </form>
+        </div>
+       
+            
+        </div>  
+    <header> 
+        <nav id="navBar" class="navBar">
+            <div class="navBar_logo" >
+                <a href="index.html"><p class="logo"><span class="hypeRed">Hype</span>App</p></a>
+            </div>
+            <ul class="carrito">
+                <li><a id="btnCuenta"><i class="fas fa-user"></i></a></li>
+                <li class="navBar__carrito" id="opCarrtito">
+                    <a>
+                        <i class="fas fa-shopping-cart"></i>
+                        <p class="nCantidad"></p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+         
+    </header>
+    <main class="main">
+        
+    </main>
+    
+
+    
+
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/fx.js"> </script>
+</body>
+</html>

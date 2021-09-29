@@ -1,0 +1,74 @@
+[ 
+    {
+        "id":1, 
+        "nombre": "ADIDAS YEEZY BOOST 700 V2 “CREAM”",
+        "precio": 11240,
+        "img":"img"
+    },
+    {
+        "id":2, 
+        "nombre": "NIKE DUNK LOW BLACK / WHITE",
+        "precio": 22380,
+        "img":"img"
+    },
+    {
+        "id":3, 
+        "nombre": "NIKE SB DUNK LOW PRO 'CHICAGO'",
+        "precio": 19499,
+        "img":"img"
+    },
+    {
+        "id":4, 
+        "nombre": "NIKE SB DUNK LOW 'FRAME SKATE HABIBI'",
+        "precio": 17499,
+        "img":"img"
+    },
+    {
+        "id":5, 
+        "nombre": "NIKE SB DUNK LOW PRO 'GULF CLUB 58'",
+        "precio": 14999,
+        "img":"img"
+    },
+    {
+        "id":6, 
+        "nombre": "NIKE SB DUNK LOW 'PINK PIG'",
+        "precio": 15999,
+        "img":"img"
+    },
+    {
+        "id":7, 
+        "nombre": "NIKE SB DUNK LOW PRO X GRATEFUL DEAD OPTI YELLOW",
+        "precio": 19900,
+        "img":"img"
+    },
+    {
+        "id":8, 
+        "nombre": "NIKE SB DUNK LOW PRO X GRATEFUL DEAD BEARS GREEN",
+        "precio": 17900,
+        "img":"img"
+    },
+    {
+        "id":9, 
+        "nombre": "NIKE SB DUNK LOW 'BEN & JERRY'S'",
+        "precio": 15999,
+        "img":"img"
+    },
+    {
+        "id":10,
+        "nombre": "NIKE SB DUNK LOW MEDICOM TOY",
+        "precio": 18900,
+        "img":"img"
+    },
+    {
+        "id":11,
+        "nombre": "NIKE SB X STRANGELOVE SKATEBOARDS",
+        "precio": 50000,
+        "img":"img"
+    },
+    {
+        "id":12,
+        "nombre": "NIKE SB DUNK LOW X TRAVIS SCOTT",
+        "precio": 150900,
+        "img":"img"
+    }
+]

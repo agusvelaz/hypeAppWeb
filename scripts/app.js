@@ -78,6 +78,76 @@ var user=""
     <p class="subtitle" id="asd"> ¡ Bienvenido a <span class="hypeRed">Hype</span>App !<br>${user}</p>
     
     </section>
+    <div class="slider">
+            <div class="slide-track">
+                <div class="slide slideOne">
+                    <img src="img/logosMarcas/nike.png" height="84" width="84" alt="logoMarca">
+                </div>
+                <div class="slideContainer">
+                    <img src="img/logosMarcas/adidas.png" height="84" width="84" alt="logoMarca">
+                </div>
+                <div class="slideContainer">
+                    <img src="img/logosMarcas/yzy.png" height="84" width="84" alt="logoMarca">
+                </div>
+                <div class="slideContainer">
+                    <img src="img/logosMarcas/bape.png" height="84" width="84" alt="logoMarca">
+                </div>
+                <div class="slideContainer">
+                    <img src="img/logosMarcas/kaws.png" height="84" width="84" alt="logoMarca">
+                </div>
+                <div class="slideContainer">
+                    <img src="img/logosMarcas/champ.png" height="84" width="84" alt="logoMarca">
+                </div>
+                <div class="slideContainer">
+                    <img src="img/logosMarcas/EE.png" height="84" width="84" alt="logoMarca">
+                </div>
+                <div class="slideContainer">
+                    <img src="img/logosMarcas/supreme.png" height="84" width="84" alt="logoMarca">
+                </div>
+                <div class="slideContainer">
+                    <img src="img/logosMarcas/adidas.png" height="84" width="84" alt="logoMarca">
+                </div>
+                <div class="slideContainer">
+                    <img src="img/logosMarcas/yzy.png" height="84" width="84" alt="logoMarca">
+                </div>
+                <div class="slideContainer">
+                    <img src="img/logosMarcas/bape.png" height="84" width="84" alt="logoMarca">
+                </div>
+                <div class="slideContainer">
+                    <img src="img/logosMarcas/kaws.png" height="84" width="84" alt="logoMarca">
+                </div>
+                <div class="slideContainer">
+                    <img src="img/logosMarcas/champ.png" height="84" width="84" alt="logoMarca">
+                </div>
+                <div class="slideContainer">
+                    <img src="img/logosMarcas/EE.png" height="84" width="84" alt="logoMarca">
+                </div>
+                <div class="slideContainer">
+                    <img src="img/logosMarcas/supreme.png" height="84" width="84" alt="logoMarca">
+                </div>
+            </div>
+        </div>
+        <div class="galeria">
+
+            <div class="imgGaleria">
+                <div class="img imgOne"><h5>YOUR OWN STYLE</h5></div>
+            </div>
+            <div class="imgGaleria">
+                <div class="img imgTwo"><h5>NO RULES</h5></div>
+            </div>
+            <div class="imgGaleria">
+                <div class="img imgThree"><h5>SHOW WHO YOU ARE</h5></div>
+            </div>
+
+        </div>
+        <div class="mensaje">
+                    <div class="msjDiv">
+                        <h3 class="msj msjOne">ALL BRANDS IN ONE PLACE</h3>
+                    </div>
+                    <div class="msjDiv">
+                        <h3 class="msj msjTwo">EVERYTHING YOU NEED</h3>
+                    </div>
+        </div>
     <div class="content" id="cardsContainer">
         <h2>Productos disponibles</h2>
         <hr>
@@ -130,10 +200,7 @@ var user=""
     </div>
         
     </div>
-
-    <footer>
-        <p>©2021 HypeApp | Alphawebs </p>
-    </footer>
+   
     `
 
     

@@ -93,3 +93,8 @@ setTimeout(function(){ loader.classList.toggle('loaderNoneFC'); },3000);
 }
 
 
+// SLIDER 
+
+
+
+

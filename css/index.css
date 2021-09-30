@@ -828,6 +828,13 @@ footer p{
         padding: 10px 5px;
         width:400px;
     }
+    .rowServicios{
+        flex-direction: column;
+        
+    }
+    .servicios{
+        height: 200px;
+    }
 
 
 }
@@ -843,7 +850,7 @@ footer p{
     }
     .msj{
         padding: 10px 5px;
-        width:350px;
+        width:300px;
     }
 
 

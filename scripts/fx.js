@@ -88,7 +88,7 @@ loader.classList.toggle('lds-dual-ringFC')
 loader.classList.toggle('loaderFC')
 carrito = {}
 setTimeout(function(){ pintarCarrito() },2000);
-setTimeout(function(){check.style.display="flex"}, 2500)
+setTimeout(function(){check.style.display="block"}, 2500)
 setTimeout(function(){ loader.classList.toggle('loaderNoneFC'); },3000);
 }
 

@@ -174,13 +174,8 @@ var user=""
     <div class="" id="loaderFC"></div>
         <div class="clCarrito"><button id="btnClCarrito">X</button></div>
             <div class="tableCarritoContent">
-                <section class="tablaCarritoContainer">
-
-                        <h3 class="col">#</h3>
-                        <h3 class="col">Item</h3>
-                        <h3 class="col">Cantidad</h3>
-                        <h3 class="col">Subtotal</h3>
-                        
+                <section class="thead">
+                        <h3 class="col">SHOPPING CART</h3>
                 </section>
                 
                 <section id="tbody" class="items">
@@ -307,24 +302,29 @@ var user=""
         listaItems.innerHTML =''
         Object.values(carrito).forEach(element => {
             listaItems.innerHTML += `
-            
-            
-            <div scope="row">${element.id}</div>
-            <div class="row">${element.title}</div>
-            <div class="row">
-                <div class="rowBtn">
-
-                    <button class="btnResta btn" data-id="${element.id}">
-                        -
-                    </button>
-                    <p>${element.cantidad}</p>
-                    <button class="btnSuma btn" data-id="${element.id}">
-                        +
-                    </button>
+            <div class="rowItemContainer">
+                <div class="rowTitleDetails">
+                    <div class="rowTitle"><div class="rowId"><p>#ID: ${element.id}</p></div><p class="boldTitle"> ${element.title}</p></div>
+                    <div class="rowDetails">
+                        <div class="row">
+                            <div class="rowBtn">
+                                <p>Cantidad: </p>
+                                <button class="btnResta btn" data-id="${element.id}">
+                                    -
+                                </button>
+                                <p>${element.cantidad}</p>
+                                <button class="btnSuma btn" data-id="${element.id}">
+                                    +
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="rowPrice">$ 
+                    <span>${parseInt(element.cantidad)*parseInt(element.precio.slice(1))}</span>
                 </div>
             </div>
-            
-            <div class="row">$ <span>${parseInt(element.cantidad)*parseInt(element.precio.slice(1))}</span></div>
              `
         })
 

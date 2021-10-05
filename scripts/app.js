@@ -355,7 +355,7 @@ var user=""
         const navBarCarrito = document.querySelector(".nCantidad")
 
         totalCarrito.innerHTML = `$${nPrecio.toFixed(0)}`
-        totalCant.innerHTML = `${nCantidad} (items) <button class="btnDeleteCant btn" id="vaciarcarrito"> Vaciar Carrito </button> `
+        totalCant.innerHTML = `${nCantidad} (items) <button class="btnDeleteCant btn" id="vaciarcarrito"> Empty </button> `
         //CONTADOR NAVBAR
         if (nCantidad != 0){
             navBarCarrito.innerText=`${nCantidad}`  

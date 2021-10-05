@@ -28,15 +28,14 @@
     <div class="layout" id="layout"></div>
         <div id="loginCard">
             <div class="clLogin"><button id="btnClCuenta">X</button></div>
-            <h2> ¡Bienvenido! </h2>
-            <p>Ingrese su usuario y contraseña para continuar</p>
+            <h2> Sign In </h2>
             <form id="form" class="loginForm">
                 <label for="name"></label>
-                <input type="text" id="inputName" name="user" autocomplete="user" placeholder="Ingrese su usuario">
-                <label for="name"></label>
-                
-                <input type="text" id="inputPass" name="password" autocomplete="password" placeholder="Ingrese su contraseña">
-                <button type="submit" id="btnLogin">Continuar</button>
+                <input type="text" id="inputName" name="user" autocomplete="user" placeholder="Username">
+                <input type="text" id="inputPass" name="password" autocomplete="password" placeholder="Password">
+                <p class="forgetPassword"><a href="#">Forgot password?</a></p>
+                <button type="submit" id="btnLogin">Continue</button>
+                <p class="">Don't have an account?<a href="#">Sign Up</a></p>
             </form>
         </div>
        
@@ -94,7 +93,8 @@
     </div>
 
     <footer>
-    <p>©2021 HypeApp | Alphawebs </p>
+    
+    <a href="index.html"><p>©2021 <span class="hypeRed">Hype</span>App | Alphawebs </p></a>
     </footer>
     
 

@@ -69,14 +69,14 @@ body{
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin: 15px;
-    width: 500px;
-    height: 300px;
+    width: 50%;
+    height: 100vh;
     display: none;
     position: fixed;
-    background-color: rgb(255, 255, 255);
-    margin: 11% 32%;
-    z-index: 11;
+    right: 0;
+    top: 0;
+    background-color: rgb(247 247 247);
+    z-index: 9999999;
 }
 .loginCard h2{
     margin:30px;
@@ -114,6 +114,20 @@ body{
 .loginForm button:focus{
     background-color:rgb(170, 0, 0);
     transition: 0.5s;
+    cursor: pointer;
+}
+.forgetPassword{
+    margin-top: 10px;
+}
+.loginForm a{
+    color:rgba(0, 0, 0, 0.63);
+    font-size: 15px;
+    transition: 0.5s;
+    text-decoration: none;
+    margin: 5px;
+}
+.loginForm a:hover{
+    color:rgb(255, 0, 0);
 }
 
 /* navbar */
@@ -157,6 +171,7 @@ body{
 .navBar a:hover{
     color:rgb(255, 0, 0);
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .navBarInverse{
@@ -369,6 +384,9 @@ body{
     padding: 5px 0;
     transition: all 0.5s;
 }
+.searchCategoria:hover{
+    cursor: pointer;
+}
 
 /* productos */
 
@@ -471,10 +489,14 @@ footer{
     flex-direction: column;
     justify-content: flex-end;
     bottom: 0;
+    padding-top:10px;
 }
 footer p{ 
     color: #ffffff44;
     margin:20px;
+}
+footer a{
+    text-decoration: none;
 }
 
 /* SERVICIO */ 
@@ -549,6 +571,10 @@ footer p{
     border-radius: 2px;
     background-color: #000000;
     color: #ffffff;
+}
+#btnClCuenta:hover{
+    background-color:rgb(53, 53, 53);
+    cursor: pointer;
 }
 
 
@@ -783,9 +809,11 @@ footer p{
 
 /* RESPONSIVE */
 @media only screen and (max-width: 980px){
-    #tableCarrito {
+    #tableCarrito,
+    #loginCard {
         width: 60%;
     }
+
     .loaderFC{
         padding: 0 36% 0 0;
     }
@@ -800,7 +828,8 @@ footer p{
 @media only screen and (max-width: 780px) {
 
     /*table */
-    #tableCarrito {
+    #tableCarrito,
+    #loginCard{
         width: 80%;
 
     }
@@ -831,7 +860,8 @@ footer p{
 }
 @media only screen and (max-width: 590px) {
 
-    #tableCarrito {
+    #tableCarrito,
+    #loginCard {
         width: 100%;
 
     }

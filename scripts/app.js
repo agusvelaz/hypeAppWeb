@@ -75,7 +75,7 @@ var user=""
     
     <section class="welcomeUser"> 
     
-    <p class="subtitle" id="asd"> ¡ Bienvenido a <span class="hypeRed">Hype</span>App !<br>${user}</p>
+    <p class="subtitle" id="asd"> ¡ Welcome to <span class="hypeRed">Hype</span>App !<br>${user}</p>
     
     </section>
     <div class="slider">
@@ -149,16 +149,16 @@ var user=""
                     </div>
         </div>
     <div class="content" id="cardsContainer">
-        <h2>Productos disponibles</h2>
+        <h2>Products available</h2>
         <hr>
         <div class="search">
-            <input id="search" type="search" name="search" placeholder="Search..." class="search" autocomplete="off">
+            
             <select class="searchCategoria" name="search__cat">
-                <option value="all">Filtrar por categoria</option>
-                <option value="accesorios">Accesorios</option>
-                <option value="zapatillas">Zapatillas</option>
+                <option value="all">Filter</option>
+                <option value="accesorios">Accessories</option>
+                <option value="zapatillas">Shoes</option>
                 <option value="hoodies">Hoodies</option>
-                <option value="remeras">Remeras</option>
+                <option value="remeras">T-Shirts</option>
                 <option value="shorts">Shorts</option>
             </select>
         </div>
@@ -197,6 +197,7 @@ var user=""
     </div>
    
     `
+    // <input id="search" type="search" name="search" placeholder="Search..." class="search" autocomplete="off">
 
     
     
@@ -226,7 +227,7 @@ var user=""
             </div>
             <p class="precioUnit" id="precioPorUsdBlue${producto.id}">$</p>
             <p class="precioUnitUsd">$${producto.precio}usd</p>
-            <button class="agregarCarrito" data-id="${producto.id}">Agregar</button>
+            <button class="agregarCarrito" data-id="${producto.id}">Add to cart</button>
          </div>
          `
          // SET API CAMBIO
@@ -308,7 +309,7 @@ var user=""
                     <div class="rowDetails">
                         <div class="row">
                             <div class="rowBtn">
-                                <p>Cantidad: </p>
+                                <p></p>
                                 <button class="btnResta btn" data-id="${element.id}">
                                     -
                                 </button>
@@ -342,10 +343,10 @@ var user=""
         if(Object.keys(carrito).length === 0){
 
             const footerDef =  document.querySelector(".total")
-            footerDef.innerText = ` El carrito esta vacio  `
+            footerDef.innerText = ` Your cart is empty  `
         }else{
             const total = document.querySelector(".total")
-            total.innerText = "Total Carrito"
+            total.innerText = "Total"
         }
         const nCantidad = Object.values(carrito).reduce((acc, {cantidad}) => acc+cantidad,0)
         const nPrecio = Object.values(carrito).reduce((acc, {cantidad, precio}) => acc + cantidad * parseInt(precio.slice(1)) ,0)
@@ -354,7 +355,7 @@ var user=""
         const navBarCarrito = document.querySelector(".nCantidad")
 
         totalCarrito.innerHTML = `$${nPrecio.toFixed(0)}`
-        totalCant.innerHTML = `${nCantidad}(u) <button class="btnDeleteCant btn" id="vaciarcarrito"> Vaciar Carrito </button> `
+        totalCant.innerHTML = `${nCantidad} (items) <button class="btnDeleteCant btn" id="vaciarcarrito"> Vaciar Carrito </button> `
         //CONTADOR NAVBAR
         if (nCantidad != 0){
             navBarCarrito.innerText=`${nCantidad}`  

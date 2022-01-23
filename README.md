@@ -23,18 +23,19 @@
 https://agusvelaz.github.io/hypeApp/
 
 ## Vista del proyecto:
+hypeApp/assets/img/allPage.png
 
 Home
-![home](https://github.com/agusvelaz/hypeApp/assets/img/homeAndSectionOne.png?raw=true)
+![home](https://github.com/agusvelaz/hypeApp/blob/main/assets/img/homeAndSectionOne.png?raw=true)
 
 Products
-![home](https://github.com/agusvelaz/hypeApp/assets/img/productsAndFooter.png?raw=true)
+![Products](https://github.com/agusvelaz/hypeApp/blob/main/assets/img/productsAndFooter.png?raw=true)
 
 Cart
-![home](https://github.com/agusvelaz/hypeApp/assets/img/cart.png?raw=true)
+![Cart](https://github.com/agusvelaz/hypeApp/blob/main/assets/img/cart.png?raw=true)
 
 All
-![home](https://github.com/agusvelaz/hypeApp/assets/img/allPage.png?raw=true)
+![All](https://github.com/agusvelaz/hypeApp/blob/main/assets/img/allPage.png?raw=true)
 
 
 # Autor ✒️

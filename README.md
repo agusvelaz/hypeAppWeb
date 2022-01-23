@@ -17,10 +17,8 @@
 
 <br><br>
 
-
 ### Disfrutar del Sitio Web. ✔️
 <br>
-https://agusvelaz.github.io/hypeApp/
 
 ## Vista del proyecto:
 hypeApp/assets/img/allPage.png
@@ -40,4 +38,4 @@ All
 
 # Autor ✒️
 
-AgusVelaz - AlphaDevs - 2021.
+AgusVelaz - AlphaDevs - 2020.

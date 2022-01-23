@@ -23,6 +23,7 @@ https://agusvelaz.github.io/hypeApp/
 
 # Vista del proyecto:
 <br>
+
 ### Home
 ![home](https://github.com/agusvelaz/hypeApp/blob/main/assets/img/homeAndSectionOne.png?raw=true)
 

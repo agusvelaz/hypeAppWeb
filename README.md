@@ -15,24 +15,24 @@
 <br>
 ⚪ JQuery
 
-<br><br>
-
-### Disfrutar del Sitio Web. ✔️
 <br>
 
-## Vista del proyecto:
-hypeApp/assets/img/allPage.png
+# Disfrutar del Sitio Web. ✔️
+<br>
+https://agusvelaz.github.io/hypeApp/
 
-Home
+# Vista del proyecto:
+<br>
+### Home
 ![home](https://github.com/agusvelaz/hypeApp/blob/main/assets/img/homeAndSectionOne.png?raw=true)
 
-Products
+### Products
 ![Products](https://github.com/agusvelaz/hypeApp/blob/main/assets/img/productsAndFooter.png?raw=true)
 
-Cart
+### Cart
 ![Cart](https://github.com/agusvelaz/hypeApp/blob/main/assets/img/cart.png?raw=true)
 
-All
+### All
 ![All](https://github.com/agusvelaz/hypeApp/blob/main/assets/img/allPage.png?raw=true)
 
 
